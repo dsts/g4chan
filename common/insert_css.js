@@ -1,6 +1,14 @@
-(new MutationObserver(observe)).observe(document.documentElement, {
-  childList: true
-});
+main();
+
+function main() {
+  if (document.head) {
+    inject();
+  } else {
+    (new MutationObserver(observe)).observe(document.documentElement, {
+      childList: true
+    });
+  }
+}
 
 function observe(mutations) {
   for (var i = 0, l = mutations.length; i < l; ++i) {

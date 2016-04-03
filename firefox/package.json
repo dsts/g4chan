@@ -1,0 +1,11 @@
+{
+  "title": "g4chan",
+  "name": "g4chan",
+  "version": "1.0.0",
+  "description": "Activates 4chan's 2016 April fool's day material design theme.",
+  "author": "dnts",
+  "main": "index.js",
+  "engines": {
+    "firefox": ">=34.0"
+  }
+}
