@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "g4chan",
+	"version": "1",
+	"description": "Activates 4chan's 2016 April fool's day material design theme.",
+	"content_scripts": [
+		{
+			"matches": ["https://boards.4chan.org/*"],
+			"js": ["insert_css.js"]
+		}
+	]
+}
