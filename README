@@ -1,0 +1,52 @@
+###############################################################################
+#                                                                             #
+#                                   g4chan                                    #
+#                                                                             #
+###############################################################################
+
+This is an extension for Chrome and Firefox that activates 4chan's 2016 April
+fool's day material design theme.
+
+#
+# What you will find here
+#
+
+This document will describe the build steps and how it was installed on
+browsers during development.
+
+#
+# Building for Firefox
+#
+
+Dependencies:
+
+	* jpm - 1.0.7
+	* GNU Make - 4.1
+
+To generate a Firefox addon file:
+
+	make g4chan.xpi
+
+To install on Firefox you can either drag the generated g4chan.xpi file to an
+open firefox tab on the about:addons page which will prompt you for
+installation.
+You may also install it with the following command which will open a new tab
+that will prompt you for installation:
+
+	/path/to/firefox g4chan.xpi
+
+#
+# Building for Chrome
+#
+
+Dependencies:
+
+	* Chrome/Chromium - 49.0
+	* GNU Make - 4.1
+
+To generate a Chrome extension file:
+
+	make g4chan.crx
+
+You can drag the generated g4chan.crx file to a open chrome tab on the
+chrome://extensions page and it will prompt you for installation.
