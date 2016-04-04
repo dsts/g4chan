@@ -9,7 +9,7 @@ chrome_extension_dir := chrome
 firefox_extension_dir := firefox
 
 chrome_browser := chromium
-chrome_key := g4chan.pem
+chrome_key := $(wildcard g4chan.pem)
 
 firefox_browser := firefox
 
