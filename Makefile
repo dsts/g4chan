@@ -13,7 +13,7 @@ chrome_key := $(wildcard g4chan.pem)
 
 firefox_browser := firefox
 
-.PHONY: all clean_build g4chan.xpi g4chan.crx
+.PHONY: all g4chan.xpi g4chan.crx
 
 all: g4chan.xpi g4chan.crx
 
