@@ -1,5 +1,4 @@
 name := g4chan
-curr_dir := $(shell pwd)
 
 chrome_build_dir := /tmp/g4chan-chrome-build
 firefox_build_dir := /tmp/g4chan-firefox-build
