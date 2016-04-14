@@ -11,8 +11,10 @@ fool's day material design theme.
 # What you will find here
 #
 
-This document will describe the build steps and how it was installed on
-browsers during development.
+This document describes the build steps for each browser used during
+development and how to install.
+
+A list of known issues is present at the end of the document.
 
 #
 # Building for Firefox
@@ -50,3 +52,10 @@ To generate a Chrome extension file:
 
 You can drag the generated g4chan.crx file to an open chrome tab on the
 chrome://extensions page and it will prompt you for installation.
+
+#
+# Known issues
+#
+
+- On Firefox there might be a noticeable flickering effect where it's possible
+to see the normal theme for a split second when the page begins to load.
