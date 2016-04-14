@@ -48,5 +48,5 @@ To generate a Chrome extension file:
 
 	make g4chan.crx
 
-You can drag the generated g4chan.crx file to a open chrome tab on the
+You can drag the generated g4chan.crx file to an open chrome tab on the
 chrome://extensions page and it will prompt you for installation.
